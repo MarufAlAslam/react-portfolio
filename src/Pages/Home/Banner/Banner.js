@@ -6,7 +6,7 @@ import { FiFacebook, FiLinkedin, FiTwitter, FiGithub, FiInstagram } from 'react-
 const Banner = () => {
     return (
         <div className='py-10 lg:w-5/6 w-full lg:px-0 px-4 mx-auto'>
-            <div className='flex justify-banner items-center'>
+            <div className='flex lg:flex-row flex-col-reverse justify-banner items-center'>
                 <div className='lg:w-1/2 w-full'>
                     <h2 className='text-3xl mb-2'>Hey!!</h2>
                     <h1 className='text-5xl mb-2'>I am <span className='grad font-bold'>Maruf Hossain</span></h1>

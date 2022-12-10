@@ -10,7 +10,7 @@ const Footer = () => {
                     <GiExplodingPlanet className='text-4xl' />
                     <p className='text-lg'>Copyright © 2022 - All right reserved</p>
                 </div>
-                <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+                <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end lg:ml-auto lg:mr-0 mr-auto ml-auto">
                     <a href="https://facebook.com/marufalaslam" rel='noreferrer' target="_blank">
                         <FiFacebook className='mr-4 mt-3 text-2xl' />
                     </a>
