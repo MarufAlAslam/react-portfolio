@@ -18,6 +18,7 @@ const Banner = () => {
                                 autoStart: true,
                                 loop: true,
                             }}
+
                         />
                     </h3>
 
