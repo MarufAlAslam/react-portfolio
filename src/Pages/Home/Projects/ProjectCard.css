@@ -1,0 +1,14 @@
+.projectCard img {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.projectCard ul {
+    padding-left: 20px;
+}
+
+.projectCard li {
+    list-style: square;
+    margin-top: 15px;
+}
