@@ -13,6 +13,80 @@ const About = () => {
             <p className='text-lg'>
                 Currently, I'm working as Associate Frontend Developer at CoreXLab Limited. Besides that, I love to Develope my skill on Fullstack web development (MERN). Other than that, I am a freelance web developer at fiverr where I have over 200+ different clients and more than 500 projects completed.
             </p>
+
+            <h2 className='text-3xl mb-3 mt-8'>
+                Biography
+            </h2>
+            <div className='lg:overflow-hidden overflow-x-auto'>
+                <table className='table w-full'>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Name
+                            </td>
+                            <td>
+                                MD. Maruf Hossain
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Age
+                            </td>
+                            <td>
+                                24
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Father's Name
+                            </td>
+                            <td>
+                                Mizanur Rahman
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mother's Name
+                            </td>
+                            <td>
+                                MST. Mariom Begum
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Present Address
+                            </td>
+                            <td>
+                                Ceramics Road, Mirpur 12, Dhaka
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Permanent Address
+                            </td>
+                            <td>
+                                Kedarpur, Babugonj, Barishal
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mobile
+                            </td>
+                            <td>
+                                +880 1724783655
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Email
+                            </td>
+                            <td>
+                                maruf14@cse.pstu.ac.bd
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     );
 };
