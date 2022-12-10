@@ -1,4 +1,5 @@
 import React from 'react';
+import { GiExplodingPlanet } from 'react-icons/gi';
 
 const Header = () => {
     return (
@@ -17,8 +18,8 @@ const Header = () => {
                             <li><a href='#contact'>Contact Me</a></li>
                         </ul>
                     </div>
-                    <a href='/' className="btn btn-ghost normal-case text-xl">
-                        Maruf's Planet
+                    <a href='/' className="btn bg-transparent border-none normal-case text-2xl">
+                        <GiExplodingPlanet className='mr-2 text-5xl' /> Maruf's Planet
                     </a>
                 </div>
                 <div className="navbar-end hidden lg:flex">
