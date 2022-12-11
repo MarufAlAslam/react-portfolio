@@ -20,9 +20,9 @@ const Header = () => {
                             <li><Link to='/blogs'>Blogs</Link></li>
                         </ul>
                     </div>
-                    <a href='/' className="btn bg-transparent border-none normal-case text-2xl">
+                    <Link to='/' className="btn bg-transparent border-none normal-case text-2xl">
                         <GiExplodingPlanet className='mr-2 text-5xl' /> Maruf's Planet
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
