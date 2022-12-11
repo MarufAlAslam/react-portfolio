@@ -1,13 +1,13 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
-import Home from '../Home/Home';
 
 const Main = () => {
     return (
         <>
             <Header></Header>
-            <Home></Home>
+            <Outlet></Outlet>
             <Footer></Footer>
         </>
     );

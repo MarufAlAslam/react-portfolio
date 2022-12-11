@@ -1,0 +1,8 @@
+.gallery img {
+    max-height: 300px;
+    object-fit: cover;
+    margin: auto;
+    object-position: top;
+    height: 300px;
+    width: 100%;
+}

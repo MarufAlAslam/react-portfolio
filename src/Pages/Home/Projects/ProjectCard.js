@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ProjectCard.css'
 
 const ProjectCard = ({ project }) => {
@@ -14,9 +15,12 @@ const ProjectCard = ({ project }) => {
                 </ul>
 
                 <div className='divider'></div>
-                <div className='card-actions mt-auto w-full'>
-                    <a href={project.liveLink} className='block w-full'>
-                        <button className='btn btn-primary rounded-none w-full'>Live Link</button>
+                <div className='card-actions flex justify-between items-center flex-row mt-auto w-full'>
+                    <Link to={`/project-details/${project.id}`} className='block'>
+                        <button className='btn btn-accent rounded-none'>See Details</button>
+                    </Link>
+                    <a href={project.liveLink} className='block'>
+                        <button className='btn btn-primary rounded-none'>Live Link</button>
                     </a>
                 </div>
             </div>

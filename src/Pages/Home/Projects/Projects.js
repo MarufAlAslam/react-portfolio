@@ -7,6 +7,7 @@ import brainExercise from './3.png'
 const Projects = () => {
     const projects = [
         {
+            id: 1,
             name: 'E-Trade',
             projectDetails: [
                 "MERN Stack project where users can sign in/register and buy/sell their used products.",
@@ -17,6 +18,7 @@ const Projects = () => {
             img: eTrade
         },
         {
+            id: 2,
             name: 'PicMan',
             projectDetails: [
                 "MERN Stack Project where users can register / sign in and see / provide reviews on services available on the website.also, they can add services if they want",
@@ -27,6 +29,7 @@ const Projects = () => {
             img: picMan
         },
         {
+            id: 3,
             name: 'BrainExercise',
             projectDetails: [
                 "React App with Firebase Authentication(email - password, GitHub, google)",
