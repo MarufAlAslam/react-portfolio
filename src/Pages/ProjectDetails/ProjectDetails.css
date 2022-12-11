@@ -6,3 +6,14 @@
     height: 300px;
     width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+    .gallery img {
+        max-height: 100%;
+        object-fit: cover;
+        margin: auto;
+        object-position: top;
+        height: auto;
+        width: 100%;
+    }
+}
