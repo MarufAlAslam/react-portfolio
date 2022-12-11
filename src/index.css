@@ -7,3 +7,14 @@
 * {
   font-family: 'Josefin Sans', sans-serif;
 }
+
+@media screen and (max-width: 767px) {
+  .gallery img {
+    max-height: 100%;
+    object-fit: cover;
+    margin: auto;
+    object-position: top;
+    height: auto;
+    width: 100%;
+  }
+}
