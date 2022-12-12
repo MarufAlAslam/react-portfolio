@@ -18,7 +18,7 @@ const Contact = () => {
                                 <td>
                                     <a href='mailto:maruf14@cse.pstu.ac.body
                                     ' target='_blank' rel='noreferrer'>
-                                        maruf14@cse.pstu.ac.body
+                                        maruf14@cse.pstu.ac.bd
                                     </a>
                                 </td>
                             </tr>
