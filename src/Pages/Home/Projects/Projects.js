@@ -8,13 +8,13 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            name: 'E-Trade',
+            name: 'Jadroo IT',
             projectDetails: [
-                "MERN Stack project where users can sign in/register and buy/sell their used products.",
-                "Firebase Authentication and JWT Authorization.",
-                "Important Tools: React.js, Node - Express, MongoDB, Middlewares, React Router DOM, Tailwind, DaisyUI, NPM Packages, Git, Stripe Payment Method"
+                "React.js Project to display details and services about a company.",
+                "React Router Navigation",
+                "Important Tools: React.js, React Router DOM, Tailwind, DaisyUI, NPM Packages, Git"
             ],
-            liveLink: 'https://e-trade-a12.web.app/',
+            liveLink: 'jadrooit.com',
             img: eTrade
         },
         {
@@ -51,11 +51,11 @@ const Projects = () => {
                 }
             </div>
 
-            <div className='mt-8 text-center'>
+            {/* <div className='mt-8 text-center'>
                 <a href="/" className='btn btn-outline'>
                     See More Projects
                 </a>
-            </div>
+            </div> */}
         </div>
     );
 };

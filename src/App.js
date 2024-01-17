@@ -7,8 +7,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
-import Blogs from './Pages/Blogs/Blogs';
+// import Blogs from './Pages/Blogs/Blogs';
 import Broken from './Pages/Broken/Broken';
+import Payoneer from './Pages/Payoneer';
 
 function App() {
   const router = createBrowserRouter([
@@ -25,8 +26,8 @@ function App() {
           element: <ProjectDetails></ProjectDetails>
         },
         {
-          path: "Blogs",
-          element: <Blogs></Blogs>
+          path: "/payoneer",
+          element: <Payoneer></Payoneer>
         },
         {
           path: "*",

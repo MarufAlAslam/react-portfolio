@@ -7,3 +7,8 @@
 * {
   font-family: 'Josefin Sans', sans-serif;
 }
+
+body, html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}

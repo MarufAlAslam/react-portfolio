@@ -17,11 +17,11 @@ const Header = () => {
                             <li><a href='#experiences'>Experiences</a></li>
                             <li><a href='#about'>About Me</a></li>
                             <li><a href='#contact'>Contact Me</a></li>
-                            <li><Link to='/blogs'>Blogs</Link></li>
+                            <li><Link to='/payoneer'>Payoneer</Link></li>
                         </ul>
                     </div>
                     <Link to='/' className="btn bg-transparent border-none normal-case text-2xl">
-                        <GiExplodingPlanet className='mr-2 text-5xl' /> Maruf's Planet
+                        <GiExplodingPlanet className='mr-2 text-5xl' /> WebDevMaruf
                     </Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
@@ -31,7 +31,7 @@ const Header = () => {
                         <li><a href='/#experiences'>Experiences</a></li>
                         <li><a href='/#about'>About Me</a></li>
                         <li><a href='/#contact'>Contact Me</a></li>
-                        <li><Link to='/blogs'>Blogs</Link></li>
+                        <li><Link to='/payoneer'>Payoneer</Link></li>
                     </ul>
                 </div>
             </div>

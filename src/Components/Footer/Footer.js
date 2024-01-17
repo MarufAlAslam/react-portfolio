@@ -3,12 +3,13 @@ import { FiFacebook, FiLinkedin, FiTwitter, FiGithub, FiInstagram } from 'react-
 import { GiExplodingPlanet } from 'react-icons/gi';
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <div>
             <footer className="footer items-center p-4 bg-neutral text-neutral-content">
                 <div className="items-center grid-flow-col">
                     <GiExplodingPlanet className='text-4xl' />
-                    <p className='text-lg'>Copyright © 2022 - All right reserved</p>
+                    <p className='text-lg'>Copyright © {currentYear} - All right reserved</p>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end lg:ml-auto lg:mr-0 mr-auto ml-auto">
                     <a href="https://facebook.com/marufalaslam" rel='noreferrer' target="_blank">

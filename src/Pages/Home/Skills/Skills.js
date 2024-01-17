@@ -21,7 +21,7 @@ const Skills = () => {
         'CSS Media Query',
         'MongoDB',
         'Firebase',
-        'Mongoose.js'
+        'Mongoose.js',
     ]
 
     const familiar = [
@@ -50,7 +50,7 @@ const Skills = () => {
             <p className='text-xl'>
                 Comfortable
             </p>
-            <div className='grid lg:grid-cols-3 grid-cols-2 mb-5'>
+            <div className='grid lg:grid-cols-5 grid-cols-2 mb-5'>
                 {
                     comfortable.map((skill, index) => <SkillCard key={index} skill={skill}></SkillCard>)
                 }
@@ -58,7 +58,7 @@ const Skills = () => {
             <p className='text-xl'>
                 Familiar with
             </p>
-            <div className='grid lg:grid-cols-3 grid-cols-2 mb-5'>
+            <div className='grid lg:grid-cols-5 grid-cols-2 mb-5'>
                 {
                     familiar.map((skill, index) => <SkillCard key={index} skill={skill}></SkillCard>)
                 }
@@ -66,7 +66,7 @@ const Skills = () => {
             <p className='text-xl'>
                 Tools
             </p>
-            <div className='grid lg:grid-cols-3 grid-cols-2 mb-5'>
+            <div className='grid lg:grid-cols-5 grid-cols-2 mb-5'>
                 {
                     tools.map((skill, index) => <SkillCard key={index} skill={skill}></SkillCard>)
                 }
